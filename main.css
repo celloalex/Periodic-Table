@@ -9,6 +9,10 @@ thead > tr > td{
     border-style: none;
 }
 
+tbody>tr>td:hover{
+    background: yellow;
+}
+
 table{
     empty-cells: hide;
     border-spacing: 1px;
