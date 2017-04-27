@@ -11,6 +11,8 @@ thead > tr > td{
 
 tbody>tr>td:hover{
     background: yellow;
+    font-size: 50px;
+    font-style: italic;
 }
 
 table{
