@@ -9,21 +9,19 @@ thead > tr > td{
     border-style: none;
 }
 
+/*Changes color of tableboxes when mouse hovers over*/
 tbody>tr>td:hover{
     background: yellow;
-    font-size: 50px;
-    font-style: italic;
 }
 
+/*Hides empty cells and borderspacing*/
 table{
     empty-cells: hide;
     border-spacing: 1px;
 }
 
-.color-green{
-    background: green;
-}
-
-.color-orange{
-    background: orange;
+/*Centers table center of screen*/
+tbody>div{
+    padding-left: 30px;
+    padding-right: 30px;
 }
