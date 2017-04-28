@@ -1,27 +1,92 @@
-tbody, tr, td{
-    border: 1px solid black;
-    text-align: center;
+/*Centers table in middle of screen*/
+table{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial;
+    font-weight: 700;
 }
 
+/*Gives everybox an edge and aligns text center box*/
+tbody, tr, td{
+    text-align: center;
+    height: 55px;
+    width: 55px;
+}
+
+/*Title Peridic table gets centerd*/
 thead > tr > td{
     text-align: center;
     text-decoration: underline;
     border-style: none;
 }
 
+
 /*Changes color of tableboxes when mouse hovers over*/
 tbody>tr>td:hover{
     background: yellow;
+    box-shadow: 0px 0px 7px black;
+    text-decoration: underline;
 }
 
 /*Hides empty cells and borderspacing*/
 table{
     empty-cells: hide;
-    border-spacing: 1px;
+    border-spacing:3px;
+    border-radius: 4px;
 }
 
-/*Centers table center of screen*/
-tbody>div{
-    padding-left: 30px;
-    padding-right: 30px;
+td{
+    border-radius: 2px;
 }
+
+.alkali-metals{
+    background: #ff4949;
+}
+
+.alkaline-earth-metals{
+    background: #86ff44;
+}
+
+.other-nonmetals{
+    background: #14f900;
+}
+.noble-gasses{
+    background: #4491ff;
+}
+
+.halogens{
+    background: #edb1c5;
+}
+.post-transition{
+    background: #44ffd9;
+}
+.metaloids{
+    background: #1c754b;
+}
+.transition-metals{
+    background: #2e52ad;
+}
+.lanthanoids{
+    background: #ff7200;
+}
+.actinoids{
+    background: #ff00e9;
+}
+
+
+#atomic-number{
+    font-size: 11px;
+    text-align: left;
+
+
+}
+
+#atomic-name{
+    font-size: 10px;
+    margin-top: 5%;
+}
+
+
+
+
+
