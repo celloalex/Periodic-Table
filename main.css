@@ -16,7 +16,9 @@ tbody, tr, td{
 /*Title Peridic table gets centerd*/
 thead > tr > td{
     text-align: center;
-    text-decoration: underline;
+    font-family: sans-serif;
+    font-weight:900;
+    font-size: 40px;
     border-style: none;
 }
 
@@ -77,15 +79,25 @@ td{
 #atomic-number{
     font-size: 11px;
     text-align: left;
+    margin: 1px;
 
 
 }
 
 #atomic-name{
-    font-size: 10px;
+    font-size: 9px;
     margin-top: 5%;
 }
-
+footer{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial;
+    font-weight: 700;
+    text-align: center;
+    height: 55px;
+    width: 55px;
+}
 
 
 
