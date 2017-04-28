@@ -100,7 +100,7 @@ ul>li{
 
 }
 
-.li:hover{
+li:hover{
     text-decoration: underline;
     color: orange;
 
