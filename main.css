@@ -89,6 +89,10 @@ td{
     margin-top: 5%;
 }
 
+footer{
+    text-align: center;
+}
+
 ul>li{
     text-align: center;
     display: inline-block;
@@ -97,6 +101,7 @@ ul>li{
     font-weight: 900;
     font-family: Arial;
     color: #0645AD;
+    clear: both;
 
 }
 
