@@ -1,2 +1,0 @@
-# PeriodicTable
-periodic table project
