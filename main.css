@@ -41,6 +41,7 @@ td{
     border-radius: 2px;
 }
 
+/*Sets background for every element group*/
 .alkali-metals{
     background: #ff4949;
 }
@@ -75,24 +76,25 @@ td{
     background: #ff00e9;
 }
 
-
+/*Adjusted margins and text sizes for all atomic numbers*/
 #atomic-number{
     font-size: 11px;
     text-align: left;
     margin: 1px;
-
-
 }
 
+/*Adjusted margins and text sizes for all atomic names*/
 #atomic-name{
     font-size: 9px;
     margin-top: 5%;
 }
 
+/*Centers the list in footer*/
 footer{
     text-align: center;
 }
 
+/*Sets Properties for all text in list elements*/
 ul>li{
     text-align: center;
     display: inline-block;
@@ -105,11 +107,27 @@ ul>li{
 
 }
 
+/*When a List element is hovered over changes the color*/
 li:hover{
     text-decoration: underline;
     color: orange;
-
 }
 
+/*All action link text is black to make it more friendly looking to user*/
+a{
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
 
+p {
+    color: black;
+    text-decoration: none;
+}
 
+/*Changes all the elements in footer to look better*/
+/*When hovered over - still allows them to be underlined*/
+.footer-elements {
+    text-decoration: none;
+    outline: none;
+}
