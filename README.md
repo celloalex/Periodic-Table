@@ -3,6 +3,8 @@ This project was constructed using HTML and CSS.
 
 The premise of this project was to make an aesthetically pleasing Periodic Table.
 
+This website can be found at https://celloalex.github.io/PeriodicTable/.
+
 Some functionality of the site include:
 - Hovering over an element will cause it to change color so user knows which element is selected
 - Everything is clickable
